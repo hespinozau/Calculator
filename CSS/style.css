@@ -1,0 +1,40 @@
+body{
+    color: white;
+    background: black;
+}
+#calcBody{
+    background: #a9a9a9;
+    width: 350px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    margin: auto auto;
+    padding: 20px;
+    border-radius: 10px;
+    grid-gap: 10px;
+    
+}
+#screen{
+    font-family: 'VT323', monospace;
+    font-size: 68px;
+    text-align: right;
+    background: #9bbc0f;
+    padding: auto 20px auto 20px;
+    color: #0f380f;
+}
+
+
+#keyboard{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    
+}
+button{
+    background: #551a8b;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+}
